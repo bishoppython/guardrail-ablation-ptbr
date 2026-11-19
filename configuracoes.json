@@ -1,0 +1,155 @@
+[
+ {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "nome": "completa",
+  "obrigatoria": true
+ },
+ {
+  "C1": false,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "nome": "sem_C1",
+  "obrigatoria": true
+ },
+ {
+  "C1": true,
+  "C2": false,
+  "C3": true,
+  "C4": true,
+  "C5": true,
+  "nome": "sem_C2",
+  "obrigatoria": true
+ },
+ {
+  "C1": true,
+  "C2": true,
+  "C3": false,
+  "C4": true,
+  "C5": true,
+  "nome": "sem_C3",
+  "obrigatoria": true
+ },
+ {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": false,
+  "C5": true,
+  "nome": "sem_C4",
+  "obrigatoria": true
+ },
+ {
+  "C1": true,
+  "C2": true,
+  "C3": true,
+  "C4": true,
+  "C5": false,
+  "nome": "sem_C5",
+  "obrigatoria": true
+ },
+ {
+  "C1": false,
+  "C2": false,
+  "C3": false,
+  "C4": false,
+  "C5": false,
+  "nome": "base",
+  "obrigatoria": true
+ },
+ {
+  "C1": true,
+  "C2": true,
+  "C3": false,
+  "C4": false,
+  "C5": false,
+  "nome": "C1+C2",
+  "obrigatoria": false
+ },
+ {
+  "C1": true,
+  "C2": false,
+  "C3": true,
+  "C4": false,
+  "C5": false,
+  "nome": "C1+C3",
+  "obrigatoria": false
+ },
+ {
+  "C1": true,
+  "C2": false,
+  "C3": false,
+  "C4": true,
+  "C5": false,
+  "nome": "C1+C4",
+  "obrigatoria": false
+ },
+ {
+  "C1": true,
+  "C2": false,
+  "C3": false,
+  "C4": false,
+  "C5": true,
+  "nome": "C1+C5",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": true,
+  "C3": true,
+  "C4": false,
+  "C5": false,
+  "nome": "C2+C3",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": true,
+  "C3": false,
+  "C4": true,
+  "C5": false,
+  "nome": "C2+C4",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": true,
+  "C3": false,
+  "C4": false,
+  "C5": true,
+  "nome": "C2+C5",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": false,
+  "C3": true,
+  "C4": true,
+  "C5": false,
+  "nome": "C3+C4",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": false,
+  "C3": true,
+  "C4": false,
+  "C5": true,
+  "nome": "C3+C5",
+  "obrigatoria": false
+ },
+ {
+  "C1": false,
+  "C2": false,
+  "C3": false,
+  "C4": true,
+  "C5": true,
+  "nome": "C4+C5",
+  "obrigatoria": false
+ }
+]

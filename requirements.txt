@@ -1,0 +1,14 @@
+# Python 3.12. Pipeline, tools, controls C2–C5, verdicts and the simulated model use only the standard library.
+# C1 (Llama Prompt Guard 2, CPU)
+torch==2.15.0
+transformers==5.22.2
+tokenizers==0.23.3
+sentencepiece==0.2.3
+# Commercial model
+anthropic==2.8.0
+# Analysis and figures
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2

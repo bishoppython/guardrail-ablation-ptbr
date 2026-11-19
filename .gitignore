@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.key
+saida/teste_*
+saida/rodada.log
+saida/*.log
+saida/linhas_cortadas.txt

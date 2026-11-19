@@ -1,0 +1,12 @@
+The test payloads, synthetic store data and experimental outputs in this repository
+(cargas/, loja/base.json and saida/) are licensed under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0).
+
+Copyright (c) 2026 Anderson Bispo dos Santos
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The static attack cases whose "origem" field reads "agentdojo:<template> (MIT)" are
+Portuguese translations of the attack templates of AgentDojo
+(https://github.com/ethz-spylab/agentdojo), distributed under the MIT licence,
+Copyright (c) 2024 Edoardo Debenedetti and contributors.
