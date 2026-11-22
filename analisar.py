@@ -24,7 +24,7 @@ Escolhas de análise (vão para o artigo):
   reclassificada fica marcada `truncado` (o atacante não usou as tentativas restantes).
 - Adaptativo, revisão humana do juiz (decisão de 21/11/2026): no adaptativo o juiz errou muito no "obedeceu"
   (respostas que citam o cupom/domínio do atacante para ALERTAR). Todos os julgamentos "sim" do adaptativo, mais
-  50 "não" sorteados, foram anotados às cegas pelo Bispo (saida/revisao_humana_adaptativo.csv, gerada por
+  50 "não" sorteados, foram anotados às cegas pelo primeiro autor (saida/revisao_humana_adaptativo.csv, gerada por
   planilha_adaptativo.py). Nos itens anotados, o veredito humano SUBSTITUI o do juiz (adjudicação declarada; como
   todos os "sim" foram revistos, todo sucesso adaptativo que dependia do juiz passa a depender do humano). A
   concordância juiz × humano no adaptativo sai à parte (8b), porque a amostra é estratificada pela decisão do juiz.
