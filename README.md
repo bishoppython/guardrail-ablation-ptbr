@@ -31,7 +31,7 @@ no human participants are involved.
 | `cargas/` | Test payloads: 300 legitimate requests, 300 static attacks, 100 adaptive objectives, the C1 calibration set (disjoint), and their schema (`LEIA-ME.md`) |
 | `rodada*.sh`, `retomar.sh`, `parar.sh` | The exact sequence of the main run, with safe stop/resume |
 | `testes/` | Unit and pipeline tests |
-| `saida/` | Raw outputs and analysis (added after the main run finishes) |
+| `saida/` | Raw outputs, human review sheets and the analysis (`saida/analise/`) |
 
 ## Requirements
 
@@ -113,3 +113,8 @@ kept for audit only: `analisar.py` ignores them.
 ## Citation
 
 Citation details will be added when the paper is published.
+
+## How to cite
+
+If you use this package, please cite the paper and the archived release (see `CITATION.cff`; the DOI is
+issued by Zenodo for each GitHub release).
