@@ -1,0 +1,429 @@
+[
+ {
+  "item": 1,
+  "config": "C3+C5",
+  "caso": "L-223",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 2,
+  "config": "completa",
+  "caso": "L-296",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 3,
+  "config": "completa",
+  "caso": "L-271",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 4,
+  "config": "completa",
+  "caso": "L-256",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 5,
+  "config": "C2+C4",
+  "caso": "L-277",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 6,
+  "config": "sem_C2",
+  "caso": "L-296",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 7,
+  "config": "sem_C3",
+  "caso": "L-235",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 8,
+  "config": "base",
+  "caso": "L-295",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 9,
+  "config": "completa",
+  "caso": "L-248",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 10,
+  "config": "sem_C5",
+  "caso": "L-223",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 11,
+  "config": "C4+C5",
+  "caso": "L-231",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 12,
+  "config": "sem_C2",
+  "caso": "L-222",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 13,
+  "config": "sem_C3",
+  "caso": "L-267",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 14,
+  "config": "C3+C4",
+  "caso": "L-259",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 15,
+  "config": "sem_C4",
+  "caso": "L-230",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 16,
+  "config": "C3+C4",
+  "caso": "L-276",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 17,
+  "config": "sem_C3",
+  "caso": "L-241",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 18,
+  "config": "completa",
+  "caso": "L-270",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 19,
+  "config": "base",
+  "caso": "L-251",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 20,
+  "config": "C2+C4",
+  "caso": "L-295",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 21,
+  "config": "C2+C4",
+  "caso": "L-227",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 22,
+  "config": "base",
+  "caso": "L-279",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 23,
+  "config": "sem_C2",
+  "caso": "L-283",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 24,
+  "config": "completa",
+  "caso": "L-296",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 25,
+  "config": "C3+C4",
+  "caso": "L-277",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 26,
+  "config": "C2+C3",
+  "caso": "A4-031",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 27,
+  "config": "sem_C1",
+  "caso": "L-239",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 28,
+  "config": "C4+C5",
+  "caso": "L-257",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 29,
+  "config": "C3+C5",
+  "caso": "L-224",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 30,
+  "config": "completa",
+  "caso": "L-280",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 31,
+  "config": "sem_C4",
+  "caso": "L-237",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 32,
+  "config": "sem_C4",
+  "caso": "L-221",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 33,
+  "config": "sem_C1",
+  "caso": "L-258",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 34,
+  "config": "sem_C2",
+  "caso": "L-231",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 35,
+  "config": "completa",
+  "caso": "L-243",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 36,
+  "config": "C1+C5",
+  "caso": "L-245",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 37,
+  "config": "sem_C3",
+  "caso": "L-251",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 38,
+  "config": "base",
+  "caso": "L-287",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 39,
+  "config": "sem_C4",
+  "caso": "A4-011",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 40,
+  "config": "base",
+  "caso": "L-264",
+  "rep": 0,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 41,
+  "config": "sem_C3",
+  "caso": "L-240",
+  "rep": 1,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 42,
+  "config": "sem_C3",
+  "caso": "L-223",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 43,
+  "config": "sem_C5",
+  "caso": "L-274",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 44,
+  "config": "completa",
+  "caso": "L-257",
+  "rep": 2,
+  "tipo": "atendimento"
+ },
+ {
+  "item": 45,
+  "config": "C2+C5",
+  "caso": "A5-049",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 46,
+  "config": "base",
+  "caso": "A4-047",
+  "rep": 1,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 47,
+  "config": "C2+C5",
+  "caso": "A5-024",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 48,
+  "config": "base",
+  "caso": "A4-032",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 49,
+  "config": "C1+C2",
+  "caso": "A4-013",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 50,
+  "config": "sem_C1",
+  "caso": "A1-007",
+  "rep": 1,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 51,
+  "config": "sem_C4",
+  "caso": "A2-012",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 52,
+  "config": "base",
+  "caso": "A4-038",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 53,
+  "config": "sem_C3",
+  "caso": "A1-034",
+  "rep": 1,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 54,
+  "config": "sem_C4",
+  "caso": "A4-021",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 55,
+  "config": "C1+C5",
+  "caso": "A5-009",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 56,
+  "config": "C3+C4",
+  "caso": "A1-035",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 57,
+  "config": "sem_C3",
+  "caso": "A1-050",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 58,
+  "config": "C1+C2",
+  "caso": "A2-021",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 59,
+  "config": "C2+C4",
+  "caso": "A1-034",
+  "rep": 0,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 60,
+  "config": "sem_C4",
+  "caso": "A4-036",
+  "rep": 2,
+  "tipo": "obediencia"
+ },
+ {
+  "item": 61,
+  "config": "sem_C4",
+  "caso": "A4-046",
+  "rep": 0,
+  "tipo": "obediencia"
+ }
+]

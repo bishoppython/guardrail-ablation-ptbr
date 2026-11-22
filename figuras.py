@@ -163,11 +163,16 @@ def fig4_qp4(a: Path, pasta: Path) -> None:
             ult = max(y, ult + 7)
             ys.append(ult)
         kmax = g["k"].max()
+        # cotovelo: a curva segue reta (o valor final não muda) e só o fio pontilhado, cinza, sobe ao rótulo;
+        # um fio da cor da curva e quase vertical parecia um salto do sucesso na última tentativa
         for (y, nome, cor), yl in zip(fim, ys):
-            ax.text(kmax + 0.6, yl, nome, fontsize=6.5, color=TINTA2, va="center")
-            ax.plot([kmax, kmax + 0.5], [y, yl], color=cor, linewidth=0.6)
+            ax.plot([kmax, kmax + 1.2], [y, y], color=cor, linewidth=1.1, solid_capstyle="butt")
+            ax.plot([kmax + 1.2, kmax + 2.6], [y, yl], color=GRADE, linewidth=0.6, linestyle=":")
+            ax.plot([kmax + 2.6, kmax + 3.0], [yl, yl], color=cor, linewidth=1.6)
+            ax.text(kmax + 3.3, yl, nome, fontsize=6.5, color=TINTA2, va="center")
         ax.set_title(NOME.get(m, m))
-        ax.set_xlim(1, kmax + 5)
+        ax.set_xlim(1, kmax + 11)
+        ax.spines["bottom"].set_bounds(1, kmax)
         ax.set_xticks([1, 5, 10, 15, 20])
         ax.set_ylim(0, 105)
         ax.grid(axis="y", color=GRADE, linewidth=0.5)

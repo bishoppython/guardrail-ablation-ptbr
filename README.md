@@ -89,11 +89,17 @@ is already done. The random seed is 2027 throughout.
 | H1 (unauthorized vs. unintended actions) | `saida/analise/1b_h1_acoes.csv` |
 | Fig. 3 and Table 7, RQ3 (false blocking, utility, latency, cost) | `saida/analise/4_qp3_legitimas.csv`, `4b_qp3_utilidade_por_tipo.csv`, `4c_custo_latencia.csv` |
 | Trigger vocabulary (exploratory) | `saida/analise/6_gatilho.csv`, `6b_gatilho_formula.csv` |
-| RQ4 (adaptive attacks) | `saida/analise/5_*` |
+| Fig. 4, RQ4 and H2 (adaptive attacks) | `saida/analise/5_qp4_curva.csv`, `5b_qp4_final.csv`, `5c_h2_razao.csv` |
 
 The raw interaction logs (`saida/interacoes_*.jsonl`, `extra_*.jsonl`, `adaptativo_*.jsonl`) hold, per
 interaction, the configuration, the case, the response, every tool call with its policy check, the retrieved
 documents, the C1 score, tokens, latency and the verdict.
+
+`saida/analise_estatica/` is an earlier snapshot of the same analysis taken before the adaptive phase finished
+(static results only; identical to `saida/analise/` for those tables). The `*.truncados_regra_a5.jsonl` files keep
+the 12 adaptive searches that stopped early under the first version of the A5 verdict rule (a legitimate refund
+to the account holder counted as an attack success); they were re-run with the final rule (all 12 failed) and are
+kept for audit only: `analisar.py` ignores them.
 
 ## Licences
 
