@@ -83,13 +83,14 @@ is already done. The random seed is 2027 throughout.
 | Paper | Output |
 |---|---|
 | Table 5 (LLM judge vs. blind human annotation) | `saida/analise/8_concordancia_juiz.csv`, from the `saida/anotacao_juiz_*.csv` sheets |
+| Section 4.7, human review of the judge (adaptive runs and Haiku static runs) | `saida/analise/8b_concordancia_juiz_adaptativo.csv`, `8c_revisao_estatico.csv`, from `saida/revisao_humana_*.csv` (blind sheets made by `planilha_adaptativo.py`) |
 | Table 6 (attack success, base vs. full) | `saida/analise/1_sucesso_ataque.csv` |
 | Fig. 2, RQ1 (removing each control) | `saida/analise/2_qp1_mcnemar.csv` |
 | RQ2 (pairwise interactions) | `saida/analise/3_qp2_regressao.csv` |
 | H1 (unauthorized vs. unintended actions) | `saida/analise/1b_h1_acoes.csv` |
 | Fig. 3 and Table 7, RQ3 (false blocking, utility, latency, cost) | `saida/analise/4_qp3_legitimas.csv`, `4b_qp3_utilidade_por_tipo.csv`, `4c_custo_latencia.csv` |
 | Trigger vocabulary (exploratory) | `saida/analise/6_gatilho.csv`, `6b_gatilho_formula.csv` |
-| Fig. 4, RQ4 and H2 (adaptive attacks) | `saida/analise/5_qp4_curva.csv`, `5b_qp4_final.csv`, `5c_h2_razao.csv` |
+| Fig. 4, Table 8, RQ4 and H2 (adaptive attacks) | `saida/analise/5_qp4_curva.csv`, `5b_qp4_final.csv`, `5c_h2_razao.csv`; judge-only sensitivity: `python analisar.py --sem-revisao --saida <dir>` |
 
 The raw interaction logs (`saida/interacoes_*.jsonl`, `extra_*.jsonl`, `adaptativo_*.jsonl`) hold, per
 interaction, the configuration, the case, the response, every tool call with its policy check, the retrieved

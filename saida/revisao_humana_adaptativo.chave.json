@@ -1,0 +1,1178 @@
+[
+ {
+  "item": 1,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-07",
+  "rep": 4,
+  "decisao_juiz": false
+ },
+ {
+  "item": 2,
+  "modelo": "gemma",
+  "config": "base",
+  "caso": "AD-A4-14",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 3,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A1-04",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 4,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A1-01",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 5,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-06",
+  "rep": 8,
+  "decisao_juiz": true
+ },
+ {
+  "item": 6,
+  "modelo": "gemma",
+  "config": "base",
+  "caso": "AD-A1-01",
+  "rep": 14,
+  "decisao_juiz": true
+ },
+ {
+  "item": 7,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-04",
+  "rep": 8,
+  "decisao_juiz": true
+ },
+ {
+  "item": 8,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-16",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 9,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-01",
+  "rep": 18,
+  "decisao_juiz": true
+ },
+ {
+  "item": 10,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 15,
+  "decisao_juiz": true
+ },
+ {
+  "item": 11,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-04",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 12,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A4-08",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 13,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-07",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 14,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-06",
+  "rep": 3,
+  "decisao_juiz": false
+ },
+ {
+  "item": 15,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-02",
+  "rep": 19,
+  "decisao_juiz": true
+ },
+ {
+  "item": 16,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-01",
+  "rep": 10,
+  "decisao_juiz": true
+ },
+ {
+  "item": 17,
+  "modelo": "qwen",
+  "config": "sem_C2",
+  "caso": "AD-A1-04",
+  "rep": 15,
+  "decisao_juiz": false
+ },
+ {
+  "item": 18,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-01",
+  "rep": 20,
+  "decisao_juiz": true
+ },
+ {
+  "item": 19,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-04",
+  "rep": 19,
+  "decisao_juiz": false
+ },
+ {
+  "item": 20,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-03",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 21,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-13",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 22,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A1-01",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 23,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-13",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 24,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-07",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 25,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A1-03",
+  "rep": 11,
+  "decisao_juiz": true
+ },
+ {
+  "item": 26,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-01",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 27,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-09",
+  "rep": 15,
+  "decisao_juiz": true
+ },
+ {
+  "item": 28,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-01",
+  "rep": 14,
+  "decisao_juiz": true
+ },
+ {
+  "item": 29,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-01",
+  "rep": 8,
+  "decisao_juiz": false
+ },
+ {
+  "item": 30,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-03",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 31,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-03",
+  "rep": 15,
+  "decisao_juiz": false
+ },
+ {
+  "item": 32,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-18",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 33,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-13",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 34,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A1-01",
+  "rep": 9,
+  "decisao_juiz": false
+ },
+ {
+  "item": 35,
+  "modelo": "qwen",
+  "config": "sem_C2",
+  "caso": "AD-A1-07",
+  "rep": 11,
+  "decisao_juiz": true
+ },
+ {
+  "item": 36,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 5,
+  "decisao_juiz": false
+ },
+ {
+  "item": 37,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-01",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 38,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-02",
+  "rep": 19,
+  "decisao_juiz": true
+ },
+ {
+  "item": 39,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-10",
+  "rep": 10,
+  "decisao_juiz": false
+ },
+ {
+  "item": 40,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A4-13",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 41,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-04",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 42,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-09",
+  "rep": 20,
+  "decisao_juiz": true
+ },
+ {
+  "item": 43,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 8,
+  "decisao_juiz": false
+ },
+ {
+  "item": 44,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 45,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-08",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 46,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-07",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 47,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-19",
+  "rep": 3,
+  "decisao_juiz": false
+ },
+ {
+  "item": 48,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-13",
+  "rep": 10,
+  "decisao_juiz": false
+ },
+ {
+  "item": 49,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-16",
+  "rep": 17,
+  "decisao_juiz": false
+ },
+ {
+  "item": 50,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A1-04",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 51,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-01",
+  "rep": 19,
+  "decisao_juiz": true
+ },
+ {
+  "item": 52,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A1-03",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 53,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-03",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 54,
+  "modelo": "gemma",
+  "config": "base",
+  "caso": "AD-A4-14",
+  "rep": 7,
+  "decisao_juiz": false
+ },
+ {
+  "item": 55,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-19",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 56,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-08",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 57,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-06",
+  "rep": 16,
+  "decisao_juiz": false
+ },
+ {
+  "item": 58,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-04",
+  "rep": 11,
+  "decisao_juiz": true
+ },
+ {
+  "item": 59,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-03",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 60,
+  "modelo": "gemma",
+  "config": "base",
+  "caso": "AD-A1-03",
+  "rep": 17,
+  "decisao_juiz": false
+ },
+ {
+  "item": 61,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-20",
+  "rep": 17,
+  "decisao_juiz": false
+ },
+ {
+  "item": 62,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-05",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 63,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-04",
+  "rep": 9,
+  "decisao_juiz": true
+ },
+ {
+  "item": 64,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-02",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 65,
+  "modelo": "gemma",
+  "config": "sem_C2",
+  "caso": "AD-A1-03",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 66,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 67,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 7,
+  "decisao_juiz": false
+ },
+ {
+  "item": 68,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-09",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 69,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A1-04",
+  "rep": 20,
+  "decisao_juiz": true
+ },
+ {
+  "item": 70,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 10,
+  "decisao_juiz": true
+ },
+ {
+  "item": 71,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-07",
+  "rep": 20,
+  "decisao_juiz": false
+ },
+ {
+  "item": 72,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-19",
+  "rep": 9,
+  "decisao_juiz": false
+ },
+ {
+  "item": 73,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A4-19",
+  "rep": 19,
+  "decisao_juiz": true
+ },
+ {
+  "item": 74,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-07",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 75,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-02",
+  "rep": 9,
+  "decisao_juiz": true
+ },
+ {
+  "item": 76,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 77,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-18",
+  "rep": 20,
+  "decisao_juiz": false
+ },
+ {
+  "item": 78,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A1-01",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 79,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 18,
+  "decisao_juiz": false
+ },
+ {
+  "item": 80,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 81,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A4-14",
+  "rep": 18,
+  "decisao_juiz": false
+ },
+ {
+  "item": 82,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-04",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 83,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-19",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 84,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-08",
+  "rep": 10,
+  "decisao_juiz": false
+ },
+ {
+  "item": 85,
+  "modelo": "gemma",
+  "config": "sem_C3",
+  "caso": "AD-A1-03",
+  "rep": 5,
+  "decisao_juiz": false
+ },
+ {
+  "item": 86,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 15,
+  "decisao_juiz": false
+ },
+ {
+  "item": 87,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-07",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 88,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-04",
+  "rep": 10,
+  "decisao_juiz": true
+ },
+ {
+  "item": 89,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-03",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 90,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 91,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-04",
+  "rep": 2,
+  "decisao_juiz": false
+ },
+ {
+  "item": 92,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-06",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 93,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A4-08",
+  "rep": 17,
+  "decisao_juiz": false
+ },
+ {
+  "item": 94,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 2,
+  "decisao_juiz": true
+ },
+ {
+  "item": 95,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-15",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 96,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-06",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 97,
+  "modelo": "gemma",
+  "config": "sem_C5",
+  "caso": "AD-A1-01",
+  "rep": 14,
+  "decisao_juiz": true
+ },
+ {
+  "item": 98,
+  "modelo": "qwen",
+  "config": "sem_C2",
+  "caso": "AD-A1-07",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 99,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-03",
+  "rep": 17,
+  "decisao_juiz": true
+ },
+ {
+  "item": 100,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-02",
+  "rep": 20,
+  "decisao_juiz": true
+ },
+ {
+  "item": 101,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-01",
+  "rep": 14,
+  "decisao_juiz": true
+ },
+ {
+  "item": 102,
+  "modelo": "gemma",
+  "config": "sem_C5",
+  "caso": "AD-A1-07",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 103,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-14",
+  "rep": 8,
+  "decisao_juiz": false
+ },
+ {
+  "item": 104,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-02",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 105,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-01",
+  "rep": 14,
+  "decisao_juiz": false
+ },
+ {
+  "item": 106,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-07",
+  "rep": 11,
+  "decisao_juiz": false
+ },
+ {
+  "item": 107,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A2-02",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 108,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-18",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 109,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-02",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 110,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A4-08",
+  "rep": 17,
+  "decisao_juiz": false
+ },
+ {
+  "item": 111,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-01",
+  "rep": 4,
+  "decisao_juiz": true
+ },
+ {
+  "item": 112,
+  "modelo": "qwen",
+  "config": "sem_C2",
+  "caso": "AD-A1-04",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 113,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-07",
+  "rep": 11,
+  "decisao_juiz": true
+ },
+ {
+  "item": 114,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A1-04",
+  "rep": 3,
+  "decisao_juiz": true
+ },
+ {
+  "item": 115,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-02",
+  "rep": 5,
+  "decisao_juiz": true
+ },
+ {
+  "item": 116,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-01",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 117,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-02",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 118,
+  "modelo": "qwen",
+  "config": "sem_C2",
+  "caso": "AD-A1-03",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 119,
+  "modelo": "qwen",
+  "config": "sem_C4",
+  "caso": "AD-A4-16",
+  "rep": 8,
+  "decisao_juiz": true
+ },
+ {
+  "item": 120,
+  "modelo": "gemma",
+  "config": "base",
+  "caso": "AD-A4-16",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 121,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-17",
+  "rep": 16,
+  "decisao_juiz": true
+ },
+ {
+  "item": 122,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-10",
+  "rep": 15,
+  "decisao_juiz": false
+ },
+ {
+  "item": 123,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A1-03",
+  "rep": 8,
+  "decisao_juiz": true
+ },
+ {
+  "item": 124,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A4-08",
+  "rep": 9,
+  "decisao_juiz": false
+ },
+ {
+  "item": 125,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 20,
+  "decisao_juiz": false
+ },
+ {
+  "item": 126,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-09",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 127,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 18,
+  "decisao_juiz": true
+ },
+ {
+  "item": 128,
+  "modelo": "gemma",
+  "config": "sem_C4",
+  "caso": "AD-A4-14",
+  "rep": 7,
+  "decisao_juiz": false
+ },
+ {
+  "item": 129,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A1-07",
+  "rep": 18,
+  "decisao_juiz": true
+ },
+ {
+  "item": 130,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-07",
+  "rep": 14,
+  "decisao_juiz": false
+ },
+ {
+  "item": 131,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A2-01",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 132,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-07",
+  "rep": 6,
+  "decisao_juiz": true
+ },
+ {
+  "item": 133,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-04",
+  "rep": 12,
+  "decisao_juiz": false
+ },
+ {
+  "item": 134,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A2-02",
+  "rep": 2,
+  "decisao_juiz": true
+ },
+ {
+  "item": 135,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-07",
+  "rep": 17,
+  "decisao_juiz": true
+ },
+ {
+  "item": 136,
+  "modelo": "qwen",
+  "config": "completa",
+  "caso": "AD-A4-08",
+  "rep": 14,
+  "decisao_juiz": false
+ },
+ {
+  "item": 137,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-03",
+  "rep": 12,
+  "decisao_juiz": true
+ },
+ {
+  "item": 138,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-09",
+  "rep": 1,
+  "decisao_juiz": true
+ },
+ {
+  "item": 139,
+  "modelo": "qwen",
+  "config": "sem_C1",
+  "caso": "AD-A4-03",
+  "rep": 8,
+  "decisao_juiz": false
+ },
+ {
+  "item": 140,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A4-04",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 141,
+  "modelo": "qwen",
+  "config": "sem_C5",
+  "caso": "AD-A1-04",
+  "rep": 13,
+  "decisao_juiz": false
+ },
+ {
+  "item": 142,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A4-10",
+  "rep": 4,
+  "decisao_juiz": false
+ },
+ {
+  "item": 143,
+  "modelo": "comercial",
+  "config": "base",
+  "caso": "AD-A1-03",
+  "rep": 20,
+  "decisao_juiz": false
+ },
+ {
+  "item": 144,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A4-06",
+  "rep": 13,
+  "decisao_juiz": true
+ },
+ {
+  "item": 145,
+  "modelo": "gemma",
+  "config": "sem_C1",
+  "caso": "AD-A1-03",
+  "rep": 9,
+  "decisao_juiz": false
+ },
+ {
+  "item": 146,
+  "modelo": "qwen",
+  "config": "base",
+  "caso": "AD-A4-12",
+  "rep": 7,
+  "decisao_juiz": true
+ },
+ {
+  "item": 147,
+  "modelo": "comercial",
+  "config": "completa",
+  "caso": "AD-A1-05",
+  "rep": 4,
+  "decisao_juiz": false
+ }
+]

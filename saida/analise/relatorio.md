@@ -1,4 +1,4 @@
-# Análise do experimento — gerada em 2026-11-21
+# Análise do experimento — gerada em 2026-11-22
 
 Gerado por `analisar.py`; as escolhas de análise estão no cabeçalho do script. Não editar à mão.
 
@@ -13,7 +13,7 @@ Gerado por `analisar.py`; as escolhas de análise estão no cabeçalho do script
 - Interações válidas: 41399 (ataques 20699, legítimas 20700); com erro: 1.
 - Pendentes de juiz: 0 ataques (ficaram com o veredito determinístico) e 0 dúvidas legítimas (fora da recusa suave e da utilidade).
 - Regra do titular em A5: 3 interações de ataque reclassificadas de sucesso para não sucesso (qwen3.5:9b: 3; ver cabeçalho do script).
-- Adaptativo: {'objetivos×config': 900, 'pendentes_juiz': 0, 'truncados_regra_a5': 0, 'recusas_atacante': 84, 'horas': 121.4}.
+- Adaptativo: {'objetivos×config': 900, 'pendentes_juiz': 0, 'truncados_regra_a5': 0, 'julgamentos_revistos_por_humano': 147, 'recusas_atacante': 84, 'horas': 121.4}.
 
 ## Avisos
 
@@ -26,8 +26,8 @@ Gerado por `analisar.py`; as escolhas de análise estão no cabeçalho do script
 
 | modelo | config | n_casos | taxa | ic_inf | ic_sup | taxa_inter |
 |---|---|---|---|---|---|---|
-| claude-haiku-5-5 | base | 300 | 0.210 | 0.168 | 0.260 | 0.210 |
-| claude-haiku-5-5 | completa | 300 | 0.047 | 0.028 | 0.077 | 0.047 |
+| claude-haiku-5-5 | base | 300 | 0.207 | 0.165 | 0.256 | 0.207 |
+| claude-haiku-5-5 | completa | 300 | 0.043 | 0.025 | 0.073 | 0.043 |
 | claude-haiku-5-5 | sem_C1 | 300 | 0.050 | 0.031 | 0.081 | 0.050 |
 | claude-haiku-5-5 | sem_C2 | 300 | 0.047 | 0.028 | 0.077 | 0.047 |
 | claude-haiku-5-5 | sem_C3 | 300 | 0.053 | 0.033 | 0.085 | 0.053 |
@@ -141,11 +141,11 @@ _(+22 linhas no CSV)_
 
 | modelo | classe | controle | n_pares | diferenca_pp | so_completa | so_sem | p_exato | p_holm |
 |---|---|---|---|---|---|---|---|---|
-| claude-haiku-5-5 | A1 | C1 | 60 | 1.667 | 2 | 3 | 1.000 | 1.000 |
-| claude-haiku-5-5 | A1 | C2 | 60 | 0.000 | 3 | 3 | 1.000 | 1.000 |
-| claude-haiku-5-5 | A1 | C3 | 60 | -3.333 | 3 | 1 | 0.625 | 1.000 |
-| claude-haiku-5-5 | A1 | C4 | 60 | -1.667 | 3 | 2 | 1.000 | 1.000 |
-| claude-haiku-5-5 | A1 | C5 | 60 | 0.000 | 1 | 1 | 1.000 | 1.000 |
+| claude-haiku-5-5 | A1 | C1 | 60 | 3.333 | 1 | 3 | 0.625 | 1.000 |
+| claude-haiku-5-5 | A1 | C2 | 60 | 1.667 | 2 | 3 | 1.000 | 1.000 |
+| claude-haiku-5-5 | A1 | C3 | 60 | -1.667 | 2 | 1 | 1.000 | 1.000 |
+| claude-haiku-5-5 | A1 | C4 | 60 | 0.000 | 2 | 2 | 1.000 | 1.000 |
+| claude-haiku-5-5 | A1 | C5 | 60 | 1.667 | 0 | 1 | 1.000 | 1.000 |
 | claude-haiku-5-5 | A2 | C1 | 60 | 0.000 | 0 | 0 | 1.000 | 1.000 |
 | claude-haiku-5-5 | A2 | C2 | 60 | 0.000 | 0 | 0 | 1.000 | 1.000 |
 | claude-haiku-5-5 | A2 | C3 | 60 | 0.000 | 0 | 0 | 1.000 | 1.000 |
@@ -351,22 +351,22 @@ Cada métrica tem o seu n: dúvidas sem julgamento do juiz saem de recusa suave,
 
 | modelo | config | n | taxa_adapt | ic_inf | ic_sup | taxa_estat | diferenca_pp | razao | k_mediano | pendentes_juiz |
 |---|---|---|---|---|---|---|---|---|---|---|
-| claude-haiku-5-5 | base | 100 | 0.340 | 0.255 | 0.437 | 0.210 | 13.000 | 1.619 | 5.000 | 0 |
-| claude-haiku-5-5 | completa | 100 | 0.120 | 0.070 | 0.198 | 0.047 | 7.333 | 2.571 | 7.000 | 0 |
-| gemma4:12b | base | 50 | 0.340 | 0.224 | 0.478 | 0.430 | -9.000 | 0.791 | 3.000 | 0 |
+| claude-haiku-5-5 | base | 100 | 0.260 | 0.184 | 0.354 | 0.207 | 5.333 | 1.258 | 4.000 | 0 |
+| claude-haiku-5-5 | completa | 100 | 0.020 | 0.006 | 0.070 | 0.043 | -2.333 | 0.462 | 7.500 | 0 |
+| gemma4:12b | base | 50 | 0.300 | 0.191 | 0.438 | 0.430 | -13.000 | 0.698 | 2.000 | 0 |
 | gemma4:12b | completa | 50 | 0.040 | 0.011 | 0.135 | 0.097 | -5.667 | 0.414 | 6.000 | 0 |
-| gemma4:12b | sem_C1 | 50 | 0.100 | 0.043 | 0.214 | 0.103 | -0.333 | 0.968 | 7.000 | 0 |
-| gemma4:12b | sem_C2 | 50 | 0.060 | 0.021 | 0.162 | 0.113 | -5.333 | 0.529 | 7.000 | 0 |
+| gemma4:12b | sem_C1 | 50 | 0.060 | 0.021 | 0.162 | 0.103 | -4.333 | 0.581 | 5.000 | 0 |
+| gemma4:12b | sem_C2 | 50 | 0.040 | 0.011 | 0.135 | 0.113 | -7.333 | 0.353 | 10.000 | 0 |
 | gemma4:12b | sem_C3 | 50 | 0.100 | 0.043 | 0.214 | 0.157 | -5.667 | 0.638 | 1.000 | 0 |
-| gemma4:12b | sem_C4 | 50 | 0.160 | 0.083 | 0.285 | 0.163 | -0.333 | 0.980 | 12.500 | 0 |
+| gemma4:12b | sem_C4 | 50 | 0.120 | 0.056 | 0.238 | 0.163 | -4.333 | 0.735 | 13.500 | 0 |
 | gemma4:12b | sem_C5 | 50 | 0.180 | 0.098 | 0.308 | 0.197 | -1.667 | 0.915 | 7.000 | 0 |
-| qwen3.5:9b | base | 50 | 0.740 | 0.604 | 0.841 | 0.583 | 15.667 | 1.269 | 4.000 | 0 |
+| qwen3.5:9b | base | 50 | 0.580 | 0.442 | 0.706 | 0.583 | -0.333 | 0.994 | 4.000 | 0 |
 | qwen3.5:9b | completa | 50 | 0.220 | 0.128 | 0.352 | 0.147 | 7.333 | 1.500 | 7.000 | 0 |
-| qwen3.5:9b | sem_C1 | 50 | 0.220 | 0.128 | 0.352 | 0.173 | 4.667 | 1.269 | 8.000 | 0 |
-| qwen3.5:9b | sem_C2 | 50 | 0.280 | 0.175 | 0.417 | 0.147 | 13.333 | 1.909 | 7.500 | 0 |
+| qwen3.5:9b | sem_C1 | 50 | 0.200 | 0.112 | 0.330 | 0.173 | 2.667 | 1.154 | 7.000 | 0 |
+| qwen3.5:9b | sem_C2 | 50 | 0.260 | 0.159 | 0.396 | 0.147 | 11.333 | 1.773 | 7.000 | 0 |
 | qwen3.5:9b | sem_C3 | 50 | 0.300 | 0.191 | 0.438 | 0.217 | 8.333 | 1.385 | 4.000 | 0 |
-| qwen3.5:9b | sem_C4 | 50 | 0.360 | 0.241 | 0.499 | 0.240 | 12.000 | 1.500 | 5.000 | 0 |
-| qwen3.5:9b | sem_C5 | 50 | 0.340 | 0.224 | 0.478 | 0.297 | 4.333 | 1.146 | 4.000 | 0 |
+| qwen3.5:9b | sem_C4 | 50 | 0.300 | 0.191 | 0.438 | 0.240 | 6.000 | 1.250 | 5.000 | 0 |
+| qwen3.5:9b | sem_C5 | 50 | 0.300 | 0.191 | 0.438 | 0.297 | 0.333 | 1.011 | 4.000 | 0 |
 
 Curva acumulada por tentativa: `5_qp4_curva.csv`.
 
@@ -431,3 +431,19 @@ Curva acumulada por tentativa: `5_qp4_curva.csv`.
 | TODOS | todos | 138 | 0.942 | 0.855 | 0.747 | 0.946 | 0.904 | 0.696 | 0.754 |
 | TODOS | atendimento | 88 | 0.955 | 0.482 | 0.000 | 0.877 | 0.950 | 0.932 | 0.977 |
 | TODOS | obediencia | 50 | 0.920 | 0.818 | 0.636 | 0.957 | 0.858 | 0.280 | 0.360 |
+
+### 8b. Adaptativo: juiz × revisão humana (amostra estratificada pela decisão do juiz)
+
+| modelo | n | concordancia | kappa | ac1_gwet | juiz_sim | juiz_sim_humano_sim | vpp_juiz_sim | juiz_nao | juiz_nao_humano_nao |
+|---|---|---|---|---|---|---|---|---|---|
+| todos | 147 | 0.442 | 0.111 | -0.056 | 97 | 15 | 0.155 | 50 | 50 |
+| comercial | 61 | 0.459 | 0.103 | 0.005 | 38 | 5 | 0.132 | 23 | 23 |
+| gemma | 23 | 0.435 | 0.057 | -0.008 | 14 | 1 | 0.071 | 9 | 9 |
+| qwen | 63 | 0.429 | 0.125 | -0.120 | 45 | 9 | 0.200 | 18 | 18 |
+
+### 8c. Estático do Haiku: juiz × revisão humana (todos os 'sim' + 15 'não')
+
+| modelo | n | concordancia | kappa | ac1_gwet | juiz_sim | juiz_sim_humano_sim | vpp_juiz_sim | juiz_nao | juiz_nao_humano_nao |
+|---|---|---|---|---|---|---|---|---|---|
+| todos | 46 | 0.891 | 0.772 | 0.794 | 31 | 26 | 0.839 | 15 | 15 |
+| comercial | 46 | 0.891 | 0.772 | 0.794 | 31 | 26 | 0.839 | 15 | 15 |

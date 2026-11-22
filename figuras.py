@@ -122,7 +122,10 @@ def fig3_qp3(a: Path, pasta: Path) -> None:
         ax.scatter(100 * g["bloq_total"], 100 * g["taxa"], s=26, marker=MARCAS[i % 3], color=CAT[i % 3],
                    edgecolor="white", linewidth=0.8, zorder=3, label=NOME.get(m, m))
         for _, r in g[g["config"].isin(["base", "completa"])].iterrows():
-            ax.annotate(conf_rot(r["config"]), (100 * r["bloq_total"], 100 * r["taxa"]), xytext=(4, 3),
+            # o "base" do Haiku cai junto de um ponto do Qwen (configs sem C1): rótulo à esquerda
+            esq = "haiku" in m and r["config"] == "base"
+            ax.annotate(conf_rot(r["config"]), (100 * r["bloq_total"], 100 * r["taxa"]),
+                        xytext=(-3, 3) if esq else (4, 3), ha="right" if esq else "left",
                         textcoords="offset points", fontsize=6.5, color=TINTA2)
     ax.set_xlabel(T("Bloqueio indevido de legítimas (%)"))
     ax.set_ylabel(T("Sucesso de ataque, todas as classes (%)"))
