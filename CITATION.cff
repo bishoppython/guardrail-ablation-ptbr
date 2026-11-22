@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite it as below."
+title: "Reproduction package for \"How much does each layer protect? A factorial ablation of guardrails in a Portuguese-language LLM customer-service agent\""
+type: software
+authors:
+  - family-names: "Santos"
+    given-names: "Anderson Bispo dos"
+    affiliation: "University of Pernambuco (UPE)"
+  - family-names: "Silva"
+    given-names: "Carlo Marcelo Revoredo da"
+    affiliation: "University of Pernambuco (UPE)"
+license: MIT
+repository-code: "https://github.com/bishoppython/guardrail-ablation-ptbr"
+keywords: ["prompt injection", "LLM agents", "guardrails", "ablation study", "Brazilian Portuguese"]
