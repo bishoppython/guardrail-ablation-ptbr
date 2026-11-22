@@ -3,10 +3,24 @@
   "upload_type": "software",
   "description": "<p>Code, test payloads (Brazilian Portuguese), raw outputs and analysis scripts for a factorial ablation of five guardrails (injection detector, datamarking, personal-data masking, output validation and backend authorization) in an LLM customer-service agent for a fictitious online store, under static and adaptive prompt-injection attacks, on three models. All data are synthetic. Code under the MIT licence; test payloads, synthetic store data and outputs under CC BY 4.0 (see LICENSE and LICENSE-DATA).</p>",
   "creators": [
-    {"name": "Santos, Anderson Bispo dos", "affiliation": "University of Pernambuco (UPE)"},
-    {"name": "Silva, Carlo Marcelo Revoredo da", "affiliation": "University of Pernambuco (UPE)"}
+    {
+      "name": "Santos, Anderson Bispo dos",
+      "affiliation": "University of Pernambuco (UPE)"
+    },
+    {
+      "name": "Silva, Carlo Marcelo Revoredo da",
+      "affiliation": "University of Pernambuco (UPE)",
+      "orcid": "0000-0003-4283-6490"
+    }
   ],
   "license": "MIT",
-  "keywords": ["prompt injection", "LLM agents", "guardrails", "ablation study", "Brazilian Portuguese", "defense in depth"],
+  "keywords": [
+    "prompt injection",
+    "LLM agents",
+    "guardrails",
+    "ablation study",
+    "Brazilian Portuguese",
+    "defense in depth"
+  ],
   "language": "eng"
 }
